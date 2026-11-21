@@ -20,6 +20,13 @@ Rather than relying on passive tutorials or walkthroughs, I document core operat
 | **[06-frontend-security-bridge](./06-frontend-security-bridge/)** | Full-Stack Web Mechanics | DOM manipulation, REST APIs, browser storage, authentication tokens |
 
 ---
+### Linux Fundamentals Notes
+
+* [Shell Basics & Filesystem Navigation](./01-linux-fundamentals/shell-basics-and-paths.md) — Working directories, relative vs. absolute paths, and basic shell navigation.
+* [File Inspection, Filtering & Links](./01-linux-fundamentals/file-inspection-and-manipulation.md) — Reading files, inspecting commands, and understanding file manipulation and links.
+* [Querying System Documentation & Help](./01-linux-fundamentals/querying-system-documentation.md) — Reading `man` pages, searching inside and across manuals (`/` and `man -k`), `--help` flags, and shell built-in `help`.
+
+---
 
 ## 🛠️ Core Toolchain & Platforms
 * **Operating Systems & CLI:** Linux (Ubuntu/Kali), Bash, `grep`/`sed`/`awk`, SSH, Git
@@ -29,5 +36,6 @@ Rather than relying on passive tutorials or walkthroughs, I document core operat
 ---
 
 ## 🔗 Public Profiles
-* **pwn.college Hacker Profile:** `[Paste your https://pwn.college/hacker/YOUR_USERNAME link here]`
+* **pwn.college Hacker Profile:**  https://pwn.college/hacker/Anarchy_0x
+* 
 * **LinkedIn:** `[Paste your LinkedIn profile URL here]`
