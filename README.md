@@ -26,6 +26,8 @@ Rather than relying on passive tutorials or walkthroughs, I document core operat
 * [File Inspection, Filtering & Links](./01-linux-fundamentals/file-inspection-and-manipulation.md) — Reading files, inspecting commands, and understanding file manipulation and links.
 * [Querying System Documentation & Help](./01-linux-fundamentals/querying-system-documentation.md) — Reading `man` pages, searching inside and across manuals (`/` and `man -k`), `--help` flags, and shell built-in `help`.
 
+* - [File Globbing & Shell Expansion](01-linux-fundamentals/file-globbing.md) — Wildcard matching (`*`, `?`, `[...]`), path and multi-glob chaining, exclusionary character classes (`[!...]`), and CLI tab completion.
+
 ---
 
 ## 🛠️ Core Toolchain & Platforms
