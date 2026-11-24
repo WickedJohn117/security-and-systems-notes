@@ -38,6 +38,6 @@ Rather than relying on passive tutorials or walkthroughs, I document core operat
 ---
 
 ## 🔗 Public Profiles
-* **pwn.college Hacker Profile:**  https://pwn.college/hacker/Anarchy_0x
+* **pwn.college Hacker Profile:**  [https://pwn.college/hacker/Anarchy_0x](https://pwn.college/hacker/Anarchy_0x)
 * 
-* **LinkedIn:** `www.linkedin.com/in/John-Ikenna-Ekwem`
+* **LinkedIn:** [https://www.linkedin.com/in/John-Ikenna-Ekwem](https://www.linkedin.com/in/John-Ikenna-Ekwem)
