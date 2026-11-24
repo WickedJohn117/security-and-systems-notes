@@ -40,4 +40,4 @@ Rather than relying on passive tutorials or walkthroughs, I document core operat
 ## 🔗 Public Profiles
 * **pwn.college Hacker Profile:**  https://pwn.college/hacker/Anarchy_0x
 * 
-* **LinkedIn:** `[Paste your LinkedIn profile URL here]`
+* **LinkedIn:** `www.linkedin.com/in/John-Ikenna-Ekwem`
