@@ -28,6 +28,8 @@ Rather than relying on passive tutorials or walkthroughs, I document core operat
 
 * [File Globbing & Shell Expansion](01-linux-fundamentals/file-globbing.md) — Wildcard matching (`*`, `?`, `[...]`), path and multi-glob chaining, exclusionary character classes (`[!...]`), and CLI tab completion.
 
+* [Pipes, Redirection, and FIFOs](./pipes-redirection-and-fifos.md) — Working with `stdin`, `stdout`, `stderr`, redirection operators, pipes (`|`), process substitution, and named pipes (`mkfifo`).
+  
 ---
 
 ## 🛠️ Core Toolchain & Platforms
