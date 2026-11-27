@@ -41,6 +41,6 @@ A **symbolic link** (or symlink) works like a shortcut on a desktop—it is a sp
   * **Configuration Drift & Integrity (`diff`):** Comparing live critical files (`/etc/passwd`, `/etc/ssh/sshd_config`, or crontabs) against known-good baselines with `diff` is a fast manual way to detect unauthorized changes during both incident response and GRC compliance audits.
   * **Safe Log Inspection:** Pairing `grep` with targeted log paths (`/var/log/auth.log`) isolates brute-force or anomalous activity quickly without dumping entire multi-gigabyte files to the console.
 * **Offensive / AppSec Considerations:**
-  * **Operational Hygiene (`ln -s` & `rm`):**
-  * **Broken Symlinks (`ln -s`):** Because a symlink only stores a path pointer rather than a copy of the data, moving or deleting the original file breaks the shortcut. Using `ls -l` reveals where a symlink actually points (`->`) before modifying or deleting it.
-  * **Irreversible Deletion (`rm`):** Terminal deletion bypasses any GUI trash bin—double-checking paths with `ls` before running `rm` prevents accidental loss of logs, configs, or scripts.
+  * **System & Operational Hygiene:**
+    * **Broken Symlinks (`ln -s`):** Because a symlink only stores a path pointer rather than a copy of the data, moving or deleting the original file breaks the shortcut. Using `ls -l` reveals where a symlink actually points (`->`) before modifying or deleting it.
+    * **Irreversible Deletion (`rm`):** Terminal deletion bypasses any GUI trash bin—double-checking paths with `ls` before running `rm` prevents accidental loss of logs, configs, or scripts.
