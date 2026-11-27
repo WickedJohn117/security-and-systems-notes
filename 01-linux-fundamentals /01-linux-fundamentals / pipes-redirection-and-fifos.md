@@ -90,3 +90,11 @@ cat /tmp/demo.fifo
 # Clean up the FIFO entry when finished
 rm -f /tmp/demo.fifo
 ```
+## Security & Operational Takeaways
+
+* **Keeping Normal Output and Errors Clear (`2>` and `2>&1`):**
+  * Separating standard output (`1>`) from error messages (`2>`) helps prevent noisy output from hiding real errors when a command or script fails.
+  * Using `2>&1` when saving logs or piping into `grep` ensures you don't miss error messages that went to `stderr` instead of `stdout`.
+* **Temporary FIFO Hygiene (`/tmp`):**
+  * Named pipes created with `mkfifo` appear on the filesystem (marked with `p` in `ls -l`) and block until both a reader and writer connect.
+  * Cleaning up test FIFOs (`rm -f /tmp/demo.fifo`) when you finish testing keeps temporary directories tidy and avoids leftover test pipes hanging a script later.
