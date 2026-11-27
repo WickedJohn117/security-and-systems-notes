@@ -11,14 +11,14 @@ Today I started learning how to interact with Linux entirely through the termina
 ---
 
 ## 2. Moving Around the Filesystem (Paths)
+
 One of the trickiest parts I practiced today is understanding how to tell the terminal where to go. There are two main ways to point to a file or folder:
 
 1. **Absolute Paths:** These always start from the very top root directory (`/`). No matter where I am currently standing in the terminal, typing an absolute path like `/home/hacker` will always take me to the exact same place.
-2. **Relative Paths:** These depend on where I am *right now*. 
-   - `.` means the **current folder** I am standing in.
-   - `..` means the **parent folder** (moving one level up).
-   - `~` takes me straight back to my **home folder**.
-
+2. **Relative Paths:** These depend on where I am **right now**.
+   * `.` means the **current folder** I am standing in.
+   * `..` means the **parent folder** (moving one level up).
+   * `~` represents my **home folder** (for example, `/home/hacker`, so `~` or `~/projects` points relative to it).
 ---
 
 ## 3. Why Does `./` Matter?
@@ -30,3 +30,8 @@ When I type a bare command, Linux checks a special list of trusted system folder
 
 ## 4. Daily Takeaway
 Command-line navigation felt a bit foreign at first, but practicing absolute vs. relative paths and understanding how `cd` works makes moving through Linux feel much more natural. Looking forward to building on this tomorrow!
+
+## Security & Operational Takeaways
+
+* **Why `./` Exists (`$PATH` Awareness):** Because `$PATH` lists trusted directories where Linux looks for commands, putting `./` in front of a local script or binary explicitly tells the shell to run it from your current directory instead of relying on implicit lookup.
+* **Knowing Where You Are Before Acting:** Checking your current directory and path (`pwd`, `.` vs. `..`, and absolute paths) helps avoid running commands or modifying files in the wrong folder by accident.
