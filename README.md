@@ -10,8 +10,6 @@ Rather than relying on passive tutorials or walkthroughs, I document core operat
 
 ## 🗺️ Repository Structure
 
-## 🗺️ Repository Structure
-
 | Directory | Focus Area | Key Topics Covered | Status |
 | :--- | :--- | :--- | :--- |
 | [01-linux-fundamentals](./01-linux-fundamentals) | *Linux & Shell Internals* | *Filesystem hierarchy, `$PATH` security, I/O redirection, permissions, process management* | 🟡 **In Progress** |
