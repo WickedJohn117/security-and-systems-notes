@@ -26,13 +26,15 @@ Rather than relying on passive tutorials or walkthroughs, I document core operat
 * [File Inspection, Filtering & Links](./01-linux-fundamentals/file-inspection-and-manipulation.md) — Reading files, inspecting commands, and understanding file manipulation and links.
 * [Querying System Documentation & Help](./01-linux-fundamentals/querying-system-documentation.md) — Reading `man` pages, searching inside and across manuals (`/` and `man -k`), `--help` flags, and shell built-in `help`.
 
-* [File Globbing & Shell Expansion](01-linux-fundamentals/file-globbing.md) — Wildcard matching (`*`, `?`, `[...]`), path and multi-glob chaining, exclusionary character classes (`[!...]`), and CLI tab completion.
+* [File Globbing & Shell Expansion](./01-linux-fundamentals/file-globbing.md) — Wildcard matching (`*`, `?`, `[...]`), path and multi-glob chaining, exclusionary character classes (`[!...]`), and CLI tab completion.
 
-* [Pipes, Redirection, and FIFOs](./pipes-redirection-and-fifos.md) — Working with `stdin`, `stdout`, `stderr`, redirection operators, pipes (`|`), process substitution, and named pipes (`mkfifo`).
+* [Pipes, Redirection, and FIFOs](./01-linux-fundamentals/pipes-redirection-and-fifos.md) — Working with `stdin`, `stdout`, `stderr`, redirection operators, pipes (`|`), process substitution, and named pipes (`mkfifo`).
   
----
+* [Shell Variables](./01-linux-fundamentals/shell-variables.md) — Setting and quoting variables, local vs. exported (`export`) environment scope, command substitution (`$(...)`), and reading input with `read`.
 
+---
 ## 🛠️ Core Toolchain & Platforms
+
 * **Operating Systems & CLI:** Linux (Ubuntu/Kali), Bash, `grep`/`sed`/`awk`, SSH, Git
 * **Security & Analysis:** Wireshark, `tcpdump`, Burp Suite, `netcat`, Python
 * **Training Environments:** [pwn.college](https://pwn.college/dojos) (ASU), PortSwigger Web Security Academy, TechyJaunt
