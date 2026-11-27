@@ -27,13 +27,13 @@ man 5 passwd
 
 ---
 
-## 2. Searching *Inside* a Manual (`/` and `n`)
+## 2. Searching Inside a Manual (`/` and `n`)
 
-Long manuals (like `man bash` or `man curl`) can span hundreds of lines. Instead of scrolling line-by-line, search directly inside the open pager:
+Long manuals (like `man bash` or `man curl`) can span hundreds of lines. Instead of scrolling line-by-line, search directly inside the open pager (for example, looking up `-r` or `recursive` inside `man grep`):
 
-1. Press **`/`** followed by your keyword (e.g., `/recursive`) and hit **`Enter`**.
-2. Press **`n`** to jump forward to the next match.
-3. Press **`N`** (Shift + `n`) to jump backward to the previous match.
+1. Press `/` followed by your search term (e.g., `/recursive`) and press **Enter**.
+2. Press `n` to jump forward to the next match.
+3. Press `N` (`Shift` + `n`) to jump backward to the previous match.
 
 ---
 
