@@ -12,7 +12,7 @@ Rather than relying on passive tutorials or walkthroughs, I document core operat
 
 | Directory | Focus Area | Key Topics Covered | Status |
 | :--- | :--- | :--- | :--- |
-| [01-linux-fundamentals](./01-linux-fundamentals) | *Linux & Shell Internals* | *Filesystem hierarchy, `$PATH` security, I/O redirection, permissions, process management* | 🟡 **In Progress** |
+| [01-linux-fundamentals](./01-linux-fundamentals) | **Linux & Shell Internals** | *Filesystem hierarchy, `$PATH` security, I/O redirection, permissions, process management* | 🟡 **In Progress** |
 | `02-computing-and-scripting` | *Systems & Automation* | *Binary execution, Bash scripting, Python automation, memory & CPU basics* | ⚪ Planned |
 | `03-networking-and-packets` | *Network Security* | *TCP/IP, DNS, HTTP/HTTPS, `tcpdump`, Wireshark packet inspection, traffic manipulation* | ⚪ Planned |
 | `04-web-application-security` | *AppSec & Web Hacking* | *Cross-Site Scripting (XSS), SQL Injection, broken access control, Burp Suite workflows* | ⚪ Planned |
